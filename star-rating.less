@@ -23,12 +23,13 @@
 	position: relative;
 	font-size: 1em;
 	color: black;
+	letter-spacing: 0.4em;
 	&:before { content:""; position:absolute; left:0px; top:0px; color:gray; }
-	&:after { content:""; position:absolute; left:5.5em; top:0.2em; }
-	&.star0 { &:before { content:"★★★★★"; left:0em; } &:after { content:"0 of 5";}}
-	&.star1 { &:before { content:"★★★★"; left:1em; } &:after { content:"1 of 5";}}
-	&.star2 { &:before { content:"★★★"; left:2em; } &:after { content:"2 of 5";}}
-	&.star3 { &:before { content:"★★"; left:3em; } &:after { content:"3 of 5";}}
-	&.star4 { &:before { content:"★"; left:4em; } &:after { content:"4 of 5";}}
-	&.star5 { &:before { content:""; left:5em; } &:after { content:"5 of 5";}}
+	&:after { content:""; position:absolute; left:7em; top:0.2em; letter-spacing: 0em; color:gray; }
+	&.star0 { &:before { content:""; left:0em; } &:after { content:"0 of 5";}}
+	&.star1 { &:before { content:"★"; left:0em; } &:after { content:"1 of 5";}}
+	&.star2 { &:before { content:"★★"; left:0em; } &:after { content:"2 of 5";}}
+	&.star3 { &:before { content:"★★★"; left:0em; } &:after { content:"3 of 5";}}
+	&.star4 { &:before { content:"★★★★"; left:0em; } &:after { content:"4 of 5";}}
+	&.star5 { &:before { content:"★★★★★"; left:0em; } &:after { content:"5 of 5";}}
 }
